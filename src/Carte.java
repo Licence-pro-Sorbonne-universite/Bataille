@@ -3,7 +3,7 @@ public class Carte {
 	
 	 public static final String[] VALEURS = { null, "As", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Valet", "Dame",
      "Roi" };
-	 public static final String[] COULEURS = { "Trèfle", "Carreau", "Coeur", "Pique" };
+	 public static final String[] COULEURS = { "TrÃ¨fle", "Carreau", "Coeur", "Pique" };
 	 private int valeur;
 	 private int couleur;
 
@@ -13,7 +13,7 @@ public class Carte {
 	 }
 	
 	 /** 
-	  * Permet de renvoyer une chaîne de caractères décrivant l'objet concerné
+	  * Permet de renvoyer une chaÃ®ne de caractÃ¨res dÃ©crivant l'objet concernÃ©
 	  *  
 	  * @return      String
 	  *
@@ -25,8 +25,8 @@ public class Carte {
 	 
  
 	 /** 
-	  * Permet de comparer la carte courante à celle passé en paramètre
-	  * Les deux premières comparaisons servent à gérer le cas de "l'As" 
+	  * Permet de comparer la carte courante Ã  celle passÃ© en paramÃ¨tre
+	  * Les deux premiÃ¨res comparaisons servent Ã  gÃ©rer le cas de "l'As" 
 	  *  
 	  * @return      int
 	  * @param       autreCarte

@@ -6,7 +6,7 @@ public class Joueur {
 	private int comptPoints;
 	private ArrayList<Carte> paquet;
 
-	// un ArrayList de chaînes de caractères
+	// un ArrayList de chaÃ®nes de caractÃ¨res
 	ArrayList<String> tabCartes = new ArrayList<String>();
 	
 	public Joueur(ArrayList<Carte> paquet) {
@@ -38,7 +38,7 @@ public class Joueur {
 	}
 	
 	/** 
-	  * Permet d'ajouter la carte gagnée
+	  * Permet d'ajouter la carte gagnÃ©e
 	  *  
 	  * @param Carte 	
 	  *
@@ -50,7 +50,7 @@ public class Joueur {
 	}
 	
 	/** 
-	  * Permet d'ajouter la carte courante lorsque l'on arrive à une égalité lors de la deuxième bataille
+	  * Permet d'ajouter la carte courante lorsque l'on arrive Ã  une Ã©galitÃ© lors de la deuxiÃ¨me bataille
 	  *  
 	  * @param Carte 	
 	  *
@@ -71,13 +71,5 @@ public class Joueur {
 		}else{
 			return false;
 		}
-	}
-	
-	
-	
-	
-	
-	
-
-	
+	}	
 }
