@@ -14,7 +14,7 @@ public class Bataille {
 		    	  paquetCartes.add(new Carte(valeur, couleur));
 		      }
             System.out.println(paquetCartes.toString());  //Vérification
-		}
+		} 
 		    
 		//Mélanger le paquet, remplace Math random 
 		Collections.shuffle(paquetCartes);

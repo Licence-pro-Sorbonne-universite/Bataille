@@ -10,7 +10,7 @@ public class Carte {
 	 public Carte(int valeur, int couleur) {
 	   this.valeur = valeur;
 	   this.couleur = couleur;
-	 }
+	 } 
 	
 	 /** 
 	  * Permet de renvoyer une chaîne de caractères décrivant l'objet concerné

@@ -12,7 +12,7 @@ public class Joueur {
 	public Joueur(ArrayList<Carte> paquet) {
 		this.comptPoints = 0;
 		this.paquet = paquet;
-	}
+	} 
 	
 	
 	public int getPoints() {
