@@ -10,8 +10,8 @@ public class Joueur {
 	ArrayList<String> tabCartes = new ArrayList<String>();
 	
 	public Joueur(ArrayList<Carte> paquet) {
-		this.comptPoints = 0;
-		this.paquet = paquet;
+		this.comptPoints = 0; 
+		this.paquet = paquet; 
 	} 
 	
 	

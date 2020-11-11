@@ -9,7 +9,7 @@ public class Carte {
 
 	 public Carte(int valeur, int couleur) {
 	   this.valeur = valeur;
-	   this.couleur = couleur;
+	   this.couleur = couleur; 
 	 } 
 	
 	 /** 

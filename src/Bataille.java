@@ -11,7 +11,7 @@ public class Bataille {
 		    ArrayList<Carte> paquetCartes = new ArrayList<Carte>();
 		    for (int couleur = 0; couleur <= 3; couleur++) {
 		      for (int valeur = 1; valeur <= 13; valeur++) {
-		    	  paquetCartes.add(new Carte(valeur, couleur));
+		    	  paquetCartes.add(new Carte(valeur, couleur)); 
 		      }
             System.out.println(paquetCartes.toString());  //Vérification
 		} 
